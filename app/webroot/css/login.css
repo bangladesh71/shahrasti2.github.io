@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body {
+ 
+    background: rgba(0, 0, 0, 0) url("../img/jjjj.jpg") repeat fixed center top;
+     font: 13px/1.5 'PTSansRegular',Arial,Helvetica,sans-serif;
+}
+
+div#mws-login {
+    background: url("../img/mws-dark-bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    border-top: 2px solid #535353;
+    height: 218px;
+    margin: 200px auto;
+    padding: 12px 16px;
+    position: relative;
+    top: 50%;
+    width: 288px;
+}
+.forgot-password {
+    color:#ffffff;
+    font-weight:bold;
+    position: relative;
+    top: 10px;
+}
+.message {
+    background: none repeat scroll 0 0 #b40000;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align:center;
+    font-size:15px;
+}
+div#mws-login h1 {
+    background: url("../img/mws-login-stitch.png") repeat-x scroll left bottom rgba(0, 0, 0, 0);
+    color: #ffffff;
+    font-size: 18px;
+    margin: 0;
+    padding: 0 8px 8px;
+    position: relative;
+}
+div#mws-login .mws-login-lock {
+    background: url("../img/mws-login-circle.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    padding: 8px;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+div#mws-login form {
+    background: url("../img/mws-login-stitch.png") repeat-x scroll left bottom rgba(0, 0, 0, 0);
+}
+.mws-form {
+    clear: both;
+    display: block;
+}
+.mt13 {
+    margin-top:13px;
+}
+.mws-form .mws-form-row:before, .mws-form .mws-form-row:after {
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}
+.mws-form .mws-form-row:after {
+    clear: both;
+}
+.mws-form .mws-form-row:before, .mws-form .mws-form-row:after {
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}
+div#mws-login .mws-form-row {
+    padding-left: 0;
+    padding-right: 0;
+}
+.mws-form .mws-form-item {
+    height: auto !important;
+    min-height: 34px;
+}
+div#mws-login input.mws-login-username, div#mws-login input.mws-login-password {
+    border: 1px solid #323232;
+    padding: 8px 8px 8px 32px;
+}
+div#mws-login input.mws-login-username {
+    background-image: url("../img/user.png");
+    background-position: 8px center;
+    background-repeat: no-repeat;
+}
+.mws-form .mws-form-item select, .mws-form .mws-form-item textarea, .mws-form .mws-form-item .mws-textinput, .mws-form .mws-form-item.large select, .mws-form .mws-form-item.large textarea, .mws-form .mws-form-item.large .mws-textinput {
+    width: 100%;
+}
+.mws-form .mws-form-item select, .mws-form .mws-form-item textarea, .mws-form .mws-form-item .mws-textinput, .mws-form .mws-form-item.large select, .mws-form .mws-form-item.large textarea, .mws-form .mws-form-item.large .mws-textinput {
+    width: 100%;
+}
+.mws-form select, .mws-form textarea, .mws-form .mws-textinput, .mws-form .file {
+    background-color: #ffffff;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(128, 128, 128, 0.1) inset;
+    box-sizing: border-box;
+    color: #323232;
+    margin: 0;
+    outline: medium none;
+    padding: 6px 7px;
+}
+div#mws-login input.mws-login-password {
+    background-image: url("../img/key.png");
+    background-position: 8px center;
+    background-repeat: no-repeat;
+}
+.button input {
+    background-color: #96c742;
+    background-image: linear-gradient(#addf58, #96c742);
+    border: 1px solid #507e0c;
+    color: #ffffff;
+    padding: 6px 9px;
+    width: 100%;
+}

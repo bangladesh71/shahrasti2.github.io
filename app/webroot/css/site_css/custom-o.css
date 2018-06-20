@@ -1,0 +1,411 @@
+/* Custom 21 sep, 2015 */
+header, section, footer, aside, nav, main, article, figure {
+  display: block;
+  height: 85px;
+}
+
+body {
+  font-family: lucida sans unicode;
+}
+
+.nav-bottom {
+  border-bottom: 5px solid #1261ba;
+  box-shadow: 0 4px 4px #ccc;
+  margin-bottom: 30px;
+}
+
+.message{
+	padding: 15px;
+	background: transparent;
+	border: 1px solid #bf9958;
+	text-align: center;
+	color: #1261ba;
+	border-radius:6px;
+	margin-bottom: 10px;
+}
+
+menu,ol,ul {
+	padding: 0;
+	margin: 0;
+}
+
+.cont-bg {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 0 40px 15px rgba(0, 0, 0, 0.2);
+  height: auto;
+  margin: 0 auto;
+}
+
+.top-bar {
+	background: #1261ba none repeat scroll 0 0;
+	color: #fff;
+	font-size: 12px;
+	min-height: 18px;
+}
+
+.top-bar a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.no-pad {
+	padding: 0;
+}
+
+.slide-img {
+	padding: 5px;
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 0 0 4px #ccc;
+}
+
+.title-style1 {
+	border-bottom: 1px solid #e8e8e8;
+	margin: 30px 0 30px;
+	padding: 0 0 12px;
+	position: relative;
+}
+
+.title-style2 {
+	font-size: 12px;
+	font-weight: 600;
+	margin: 0 0 30px;
+	padding: 0 0 12px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.title-block {
+	bottom: -3px;
+	display: block;
+	height: 3px;
+	left: 0;
+	position: absolute;
+	width: 48px;
+	background: #bf9958 none repeat scroll 0 0;
+}
+
+.detail-bot {
+	background: transparent none repeat scroll 0 0;
+	border: 1px solid #e3e3e3;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 1;
+	padding: 10px 15px;
+}
+
+.detail-bot:hover {
+	background: #bf9958;
+	border: 1px solid #e3e3e3;
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+}
+
+.clubFaci li {
+	list-style-type: none;
+	padding: 0;
+}
+
+.clubFaci span {
+	padding-right: 10px;
+	color: #ababab;
+}
+
+.clubFaci p{
+	display: inline-table;
+	margin: 0;
+}
+
+.mar-tobo-left {
+	margin: 0;
+	padding: 15px;
+}
+.mar-tobo-right {
+	margin: 0;
+	padding: 15px;
+}
+
+.pad-tobo {
+	padding: 15px 0;
+}
+
+/* table custom style */
+.tab-disable,.tab-booked {
+	cursor: no-drop;
+}
+
+.tab-social {
+	cursor: help;
+}
+
+.footer-bg {
+  background: #1261ba none repeat scroll 0 0;
+  box-shadow: 0 30px 40px 15px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 12px;
+  min-height: 18px;
+}
+
+.footer {
+	padding: 17px 0;
+}
+
+.menufooter a {
+  border-bottom: 0 !important;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.menufooter a:hover{
+	text-transform: none;
+	border-bottom: 5px solid #bf9958 !important;
+}
+
+.footer span {
+	padding-right: 10px;
+}
+
+.footer a {
+	color: #fff;
+}
+
+.footer a:hover {
+	cursor: pointer;
+}
+
+.btn-default {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+  color: #000;
+}
+/*==========  10-14-15  ==========*/
+.fontipsita {
+  font-size: 11px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.fontipsita:hover {
+  text-decoration: none;
+}
+.table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+  padding: 5px;
+  line-height: 0;
+}
+.table > thead > tr > td:first-child, .table > tbody > tr > td:first-child, .table > tfoot > tr > td:first-child {
+  line-height: 1;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th {
+  padding: 5px;
+  line-height: 2;
+}
+.btn {
+  padding: 2px 5px;
+}
+.span-date {
+	color: #1261ba;
+}
+.tennis-head{
+	border: 1px solid #efefef;
+	border-bottom: 0;
+	background: #efefef none repeat scroll 0 0;
+	border-radius: 10px 10px 0 0;
+	color: #1261ba;
+	margin: 0 !important;
+	padding: 7px 10px;
+}
+.rules-button {
+  display: block;
+  font-size: 23px;
+  text-align: center;
+  width: 100%;
+}
+.rules-button h3{
+  margin: 0 !important;
+}
+.rules-button:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*==========  toggle custom  ==========*/
+
+.modalDialogrule {
+   position: relative;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background: rgba(0,0,0,0.8);
+   z-index: 99999;
+   opacity: 0;
+   -webkit-transition: opacity 400ms ease-in;
+   -moz-transition: opacity 400ms ease-in;
+   transition: opacity 400ms ease-in;
+   pointer-events: none;
+}
+.modalDialogrule:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalDialogrule > div {
+  background: #efefef none repeat scroll 0 0;
+  border: 1px dashed #ccc;
+  border-radius: 10px;
+  height: auto;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+.ulcustom  {
+  list-style-type: number;
+}
+.ulcustom ul {
+  list-style-type: lower-alpha;
+}
+
+.close2 {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -70px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+/*==========  contact-form  ==========*/
+
+.contact-form{
+	border: 8px double #eee;
+	padding: 15px;
+}
+.form__field{
+	background: #f3f5f7 none repeat scroll 0 0;
+	border: 1px solid #e3e8ec;
+	border-radius: 0;
+	font-size: 13px;
+	opacity: 1;
+	padding: 9px 45px 10px 14px;
+	width: 100%;
+}
+
+.contact-form .form__field {
+  width: 48.6381%;
+}
+
+.contact-form .form__field {
+  height: 40px;
+  margin-bottom: 14px;
+}
+
+.contact-form .form__field--message {
+  width: 100%;
+}
+
+.contact-form .form__field--message {
+  min-height: 110px;
+}
+
+.btn--highlight{
+	padding: 15px 25px;
+	border-radius:0;
+	line-height: 18px;
+	font-size: 22px;
+}
+
+.btn--highlight {
+  background-color: #1261ba;
+  border-color: #1261ba;
+  color: #fff;
+}
+
+.btn--highlight:hover {
+  background-color: transparent;
+  border-color: #1261ba;
+  color: #1261ba;
+  -webkit-transition: all 0.2s ease-in; /* Safari & Chrome */
+  -moz-transition: all 0.2s ease-in; /* Mozilla */
+  -o-transition: all 0.2s ease-in; /* Opera */
+   transition: all 0.2s ease-in;
+}
+
+.contact__info__item {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.icon-circle {
+  border: 2px solid #1261ba;
+  border-radius: 20px;
+  color: #1261ba;
+  font-size: 14px;
+  height: 30px;
+  line-height: 12px;
+  margin-right: 15px;
+  padding: 7px;
+  text-align: center;
+  width: 30px;
+}
+
+.icon-circle--thin{
+	
+}
+
+.nor-ul {
+	padding-left: 35px;
+}
+.nor-ul li {
+	list-style-type: decimal-leading-zero;
+}
+.nor-ul ul {
+	padding: 15px 0 15px 15px;
+}
+.nor-ul ul > li {
+  list-style-type: circle;
+  line-height: 22px;
+  
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.form-horizontal {
+		min-height: auto;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.form-horizontal {
+		min-height: 500px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

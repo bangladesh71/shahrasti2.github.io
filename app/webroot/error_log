@@ -1,0 +1,46 @@
+[29-Oct-2015 13:04:07 Asia/Dhaka] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/ipsitasoft/public_html/americanclubs/app/Controller/SquashbookingsController.php on line 640
+[29-Oct-2015 18:48:34 Asia/Dhaka] PHP Parse error:  syntax error, unexpected end of file in /home/ipsitasoft/public_html/americanclubs/app/Controller/ContentsController.php on line 259
+[29-Oct-2015 20:16:51 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[29-Oct-2015 20:17:12 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[29-Oct-2015 20:17:32 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[29-Oct-2015 20:18:01 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[29-Oct-2015 20:18:35 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[31-Oct-2015 10:58:54 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[31-Oct-2015 12:36:23 Asia/Dhaka] PHP Parse error:  syntax error, unexpected end of file in /home/ipsitasoft/public_html/americanclubs/app/Controller/TennisesController.php on line 273
+[31-Oct-2015 12:45:41 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[31-Oct-2015 12:51:13 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[31-Oct-2015 12:51:42 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[31-Oct-2015 12:56:48 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[31-Oct-2015 12:58:10 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[31-Oct-2015 13:05:44 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[31-Oct-2015 13:06:19 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[31-Oct-2015 17:26:09 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[31-Oct-2015 17:50:03 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[31-Oct-2015 17:52:25 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[31-Oct-2015 17:54:31 Asia/Dhaka] PHP Fatal error:  Call to a member function find() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/BookingsController.php on line 924
+[01-Nov-2015 11:44:44 Asia/Dhaka] PHP Fatal error:  Call to undefined method SquashbookingsController::_sendSignupmsg() in /home/ipsitasoft/public_html/americanclubs/app/Controller/SquashbookingsController.php on line 544
+[01-Nov-2015 11:48:06 Asia/Dhaka] PHP Fatal error:  Call to undefined method SquashbookingsController::_sendSignupmsg() in /home/ipsitasoft/public_html/americanclubs/app/Controller/SquashbookingsController.php on line 544
+[01-Nov-2015 11:48:32 Asia/Dhaka] PHP Fatal error:  Call to undefined method SquashbookingsController::_sendSignupmsg() in /home/ipsitasoft/public_html/americanclubs/app/Controller/SquashbookingsController.php on line 544
+[01-Nov-2015 11:54:02 Asia/Dhaka] PHP Fatal error:  Call to undefined method SquashbookingsController::_sendSignupmsg() in /home/ipsitasoft/public_html/americanclubs/app/Controller/SquashbookingsController.php on line 544
+[01-Nov-2015 11:58:00 Asia/Dhaka] PHP Fatal error:  Call to undefined method SquashbookingsController::_sendSignupmsg() in /home/ipsitasoft/public_html/americanclubs/app/Controller/SquashbookingsController.php on line 544
+[02-Nov-2015 10:49:20 Asia/Dhaka] PHP Fatal error:  Call to a member function send() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/SquashbookingsController.php on line 749
+[02-Nov-2015 10:50:10 Asia/Dhaka] PHP Fatal error:  Call to a member function send() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/SquashbookingsController.php on line 749
+[02-Nov-2015 10:50:58 Asia/Dhaka] PHP Fatal error:  Call to a member function send() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/SquashbookingsController.php on line 749
+[02-Nov-2015 10:52:56 Asia/Dhaka] PHP Fatal error:  Call to a member function send() on null in /home/ipsitasoft/public_html/americanclubs/app/Controller/SquashbookingsController.php on line 749
+[02-Nov-2015 12:15:10 Asia/Dhaka] PHP Fatal error:  Class 'AppHelper' not found in /home/ipsitasoft/public_html/americanclubs/lib/Cake/View/Helper/HtmlHelper.php on line 32
+[02-Nov-2015 12:15:25 Asia/Dhaka] PHP Fatal error:  Class 'AppHelper' not found in /home/ipsitasoft/public_html/americanclubs/lib/Cake/View/Helper/HtmlHelper.php on line 32
+[03-Nov-2015 10:42:33 Asia/Dhaka] PHP Fatal error:  Call to undefined method TennisesController::getWeek() in /home/ipsitasoft/public_html/americanclubs/app/Controller/TennisesController.php on line 64
+[03-Nov-2015 10:42:34 Asia/Dhaka] PHP Fatal error:  Call to undefined method TennisesController::getWeek() in /home/ipsitasoft/public_html/americanclubs/app/Controller/TennisesController.php on line 64
+[03-Nov-2015 10:42:35 Asia/Dhaka] PHP Fatal error:  Call to undefined method TennisesController::getWeek() in /home/ipsitasoft/public_html/americanclubs/app/Controller/TennisesController.php on line 64
+[03-Nov-2015 10:42:42 Asia/Dhaka] PHP Fatal error:  Call to undefined method TennisesController::getWeek() in /home/ipsitasoft/public_html/americanclubs/app/Controller/TennisesController.php on line 64
+[03-Nov-2015 10:42:45 Asia/Dhaka] PHP Fatal error:  Call to undefined method TennisesController::getWeek() in /home/ipsitasoft/public_html/americanclubs/app/Controller/TennisesController.php on line 64
+[03-Nov-2015 10:42:46 Asia/Dhaka] PHP Fatal error:  Call to undefined method TennisesController::getWeek() in /home/ipsitasoft/public_html/americanclubs/app/Controller/TennisesController.php on line 64
+[03-Nov-2015 10:42:57 Asia/Dhaka] PHP Fatal error:  Call to undefined method TennisesController::getWeek() in /home/ipsitasoft/public_html/americanclubs/app/Controller/TennisesController.php on line 64
+[03-Nov-2015 10:42:57 Asia/Dhaka] PHP Fatal error:  Call to undefined method TennisesController::getWeek() in /home/ipsitasoft/public_html/americanclubs/app/Controller/TennisesController.php on line 64
+[03-Nov-2015 10:42:58 Asia/Dhaka] PHP Fatal error:  Call to undefined method TennisesController::getWeek() in /home/ipsitasoft/public_html/americanclubs/app/Controller/TennisesController.php on line 64
+[03-Nov-2015 10:47:31 Asia/Dhaka] PHP Fatal error:  Class 'AppHelper' not found in /home/ipsitasoft/public_html/americanclubs/lib/Cake/View/Helper/HtmlHelper.php on line 32
+[03-Nov-2015 10:47:40 Asia/Dhaka] PHP Fatal error:  Class 'AppHelper' not found in /home/ipsitasoft/public_html/americanclubs/lib/Cake/View/Helper/HtmlHelper.php on line 32
+[03-Nov-2015 10:48:28 Asia/Dhaka] PHP Fatal error:  Class 'AppHelper' not found in /home/ipsitasoft/public_html/americanclubs/lib/Cake/View/Helper/HtmlHelper.php on line 32
+[05-Nov-2015 18:12:55 Asia/Dhaka] PHP Fatal error:  Call to undefined method PagesController::getContentBySlugOrType() in /home/ipsitasoft/public_html/americanclubs/app/Controller/PagesController.php on line 100
+[05-Nov-2015 18:12:56 Asia/Dhaka] PHP Fatal error:  Call to undefined method PagesController::getContentBySlugOrType() in /home/ipsitasoft/public_html/americanclubs/app/Controller/PagesController.php on line 100
+[05-Nov-2015 18:12:58 Asia/Dhaka] PHP Fatal error:  Call to undefined method PagesController::getContentBySlugOrType() in /home/ipsitasoft/public_html/americanclubs/app/Controller/PagesController.php on line 100

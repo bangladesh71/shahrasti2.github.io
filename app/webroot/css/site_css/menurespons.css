@@ -1,0 +1,304 @@
+/*========================================================
+                   header menu
+=========================================================*/
+nav ul {
+  display: inline-block;
+	z-index: 999;
+}
+.sf-menu > li {
+  float: left;
+  margin: 0 0px 0 0;
+}
+.sf-menu > li:first-child {
+  margin-left: 0;
+}
+.sf-menu > li > a {
+  display: inline-block;
+  font-family: Ubuntu,Tahoma,Helvetica,Arial,Verdana;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 40px;
+  padding: 20px 8px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  z-index: 1;
+}
+.sf-menu > li > a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0%;
+  content: "";
+  z-index: -1;
+  visibility: hidden;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  background-color: #1261ba;
+}
+.sf-menu > li > a:hover,
+.sf-menu > li.sfHover > a {
+  background-color: #1261ba;
+  color: #ffffff;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.sf-menu > li > a:hover:after,
+.sf-menu > li.sfHover > a:after {
+  bottom: -5px;
+  visibility: visible;
+}
+/*.sf-menu > li.current > a:after,
+.sf-menu > li.sfHover > a:after {
+  bottom: -20px;
+  visibility: visible;
+}*/
+.sf-menu > li.sfHover > a:after {
+  visibility: visible;
+  opacity: 100;
+  background-color: #1261ba;
+}
+.sf-menu a {
+  -webkit-transition: 0.8s all ease;
+  transition: 0.8s all ease;
+}
+.sf-menu a:after {
+  bottom: -20px;
+  visibility: visible;
+}
+.sf-menu a:hover:after {
+  bottom: -20px;
+  visibility: visible;
+}
+.sf-menu a:hover {
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.sf-menu a:hover:after {
+  bottom: -20px;
+  visibility: visible;
+}
+/* First level sub-menu styles
+========================================================*/
+.sf-menu ul {
+  background: #1261ba none repeat scroll 0 0;
+  box-sizing: border-box;
+  left: 68px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 85px;
+  width: auto;
+}
+.sf-menu ul:hover{
+	z-index: 99;
+}
+.sf-menu ul li {
+  display: block;
+  width: auto;
+}
+.sf-menu ul li:hover {
+  background-color: #519033
+}
+.sf-menu ul li.sfHover > a {
+  color: #443f43;
+}
+.sf-menu ul li a {
+  color: #ffffff;
+  display: inline-block;
+  font-family: Roboto,Tahoma,Helvetica,Arial,Verdana;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 10px;
+  padding: 15px;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 220px;
+}
+.sf-menu ul li a:hover {
+  color: #443f43;
+}
+.sf-menu ul li a:hover {
+  color: #fff;
+}
+.sf-menu ul li.sfHover > a {
+  text-decoration: none;
+  color: #443f43;
+}
+.sf-menu ul li.sfHover > a:after {
+  background-color: #1261ba !important;
+}
+/* Second level sub-menu styles
+========================================================*/
+.sf-menu ul ul {
+  position: absolute;
+  top: -51px;
+  left: 170px;
+  background: #1261ba;
+  z-index: 1;
+  padding-top: 16px;
+  padding-left: -12px;
+  padding-bottom: 16px;
+}
+.sf-menu ul ul li {
+  line-height: 30px;
+}
+.sf-menu ul ul li a {
+  font-size: 14px;
+  line-height: 36px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Roboto, Tahoma, Helvetica, Arial, Verdana;
+  font-weight: 300;
+}
+.sf-menu ul ul li a:hover {
+  color: #443f43;
+}
+
+.current .sub-menu a:after {
+  bottom: -20px;
+  visibility: visible;
+}
+.current {
+  background-color: #1261ba;
+}
+.current > a {
+  color: #ffffff !important;
+}
+.current > a:after {
+  bottom: -20px;
+  visibility: visible;
+}
+.inner:hover:after {
+  bottom: -20px;
+  visibility: visible;
+}
+@media only screen and (max-width: 979px) {
+  .sf-menu > li > a {
+    padding: 44px 3px;
+  }
+  .sf-menu ul ul {
+    top: 6px;
+    left: -188px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sf-menu {
+    display: none;
+    padding-top: 0px;
+    float: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .select-menu {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+/* Stuck menu styles
+========================================================*/
+.isStuck {
+  border-bottom: 5px solid #1261ba;
+  z-index: 999;
+  background-color: #ffffff;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+.isStuck .logo-link {
+  line-height: 79px;
+}
+.isStuck .header-logo {
+  padding-top: 5px;
+}
+.isStuck .header-logo .logo:after {
+  display: none;
+}
+.isStuck .sf-menu > li > a {
+  padding: 28px 8px;
+}
+.isStuck .sf-menu ul {
+  position: absolute;
+  top: 101px;
+}
+.isStuck .sf-menu ul ul {
+  top: 5px;
+}
+@media only screen and (max-width: 768px) {
+  .isStuck {
+    display: none !important;
+  }
+}
+.align-center {
+  text-align: center;
+}
+.dark-3-title {
+  color: #443f43;
+  font-family: Voltaire;
+  font-size: 23px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.dark-3-title a {
+  color: #443f43;
+}
+.dark-3-title a:hover {
+  color: #1261ba;
+}
+@media only screen and (max-width: 979px) {
+  .dark-3-title {
+    font-size: 27px;
+    line-height: 29px;
+  }
+}
+.back-dark {
+  background-color: #443f43;
+}
+.back-light-blue {
+  background-color: #1261ba;
+}
+
+/*========================================================
+                   custom css
+=========================================================*/
+
+.current_page {
+  background: #1261ba none repeat scroll 0 0;
+	color: #fff !important;
+}
+.sf-with-ul a:active{
+	color: #fff;
+}
+ul li{
+	list-style-type: none;
+}
+a:hover, a:focus{
+	color: #fff;
+}
+.current_page a {
+  color: #fff;
+}
+.sf-menu > li > ul {
+	display: none;
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	.slicknav_menu{
+		display: block;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.form-horizontal {
+		min-height: auto;
+	}
+	.slicknav_menu{
+		display: none;
+	}
+}
